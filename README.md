@@ -24,7 +24,7 @@ local coords    = ped.getCoords() -- will return the coords of the player;
 local ped = GetPlayerPed(source);
 ```
 
-## How to I use this in my script?
+## How do I use this in my script?
 Because FiveM doesn't allow you to replace natives you will have to include this in every script you want to use it in.
 
 In your fxmanifest.lua file you will have to include the following:
