@@ -1,5 +1,5 @@
 # EnhancedNatives
-A script that enhances natives and creates a object for ex. PlayerPedId()
+A script that enhances natives and creates a object for ex. `PlayerPedId()`
 
 ## How do I use this?
 Have you always wanted to use FiveM natives as classes in Lua? Now you can.
@@ -68,4 +68,4 @@ You can create a pull request and I will review it as soon as possible.
 I would love to see what you can come up with, And I will be happy to merge it if it is good.
 
 ## I have a question, how do I contact you?
-You can contact me on discord: `skeexs#8788`
+You can contact me on discord: `skeexs#8788` | `https://discord.gg/fruaAkwNfA`
