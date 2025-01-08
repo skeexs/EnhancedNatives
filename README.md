@@ -61,5 +61,11 @@ vehicle.setCoords(vector3(0, 0, 0));
 ---@param color1 number;
 ---@param color2 number;
 vehiucle.setColor(color1, color2)
-
 ```
+
+## I want to contribute, how do I do that?
+You can create a pull request and I will review it as soon as possible.
+I would love to see what you can come up with, And I will be happy to merge it if it is good.
+
+## I have a question, how do I contact you?
+You can contact me on discord: `skeexs#8788`
