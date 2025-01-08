@@ -42,11 +42,24 @@ server_scripts {
 ## Does it work for vehicles as well?
 Yes, it does. You can use the following natives for vehicles:
 ```lua
-local ped = PlayerPedId();
+local ped       = PlayerPedId();
+
+--[[You could also do ped.getClosestVehicle() which will return the closest vehicle to the player.]]--
 local vehicle   = ped.getVehicle();
 
 local coords    = vehicle.getCoords();
 local speed     = vehicle.getSpeed();
+local fuel      = vehicle.getFuelLevel();
 
+-- setters
+vehicle.setFuelLevel(100);
+vehicle.setHeading(90);
+
+---@param vector3;
+vehicle.setCoords(vector3(0, 0, 0));
+
+---@param color1 number;
+---@param color2 number;
+vehiucle.setColor(color1, color2)
 
 ```
